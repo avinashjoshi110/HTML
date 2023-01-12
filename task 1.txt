@@ -1,0 +1,32 @@
+Website - It is a collection of various web pages and related content also has domain name and published on one server
+
+WWW - it is a world wide web. it is a web by which all web pages are connected with each other through internet.
+
+HTTP/HTTPS - Hyper text transfer protocol. It is a system or protocol by which files like HTML programme are transforrmed. 
+             it is a system by which client and server communicate. it means exchange of file.
+
+Domain - Domain name is location of website. it is two or three words after dot. like .gov,.com etc.
+
+URL-URI/URN - A URL (Uniform Resource Locator) is a unique identifier used to locate a resource on the Internet. It is also referred to as a web address.
+
+Client Server - it is a relation that cliend does not have any resources so it requets server to give resources and server awaits the requests. 
+                WWW is example of client server.
+
+Host - host is a device like a computer which are connected to computer network. it may work as a server offering resources to network or other hosts.
+
+Hosting - it is an online service that allows you to publish web site to the internet.
+
+FTP - it is a way to download and transfer files from one location to another location between computer system.
+
+Extensions - it tells our computer that which application is created or can open your file.
+
+Path - it is a complete location or name in which file,websites are located in computer.
+
+Editor / vscode - it is a basically a computer programme in which host can edit files.
+
+Address bar - it is a familier text field on the top of the web page where URL of web site is dispplayed.
+
+Title bar - it is a horizontal bar located on the display. which shows which softwear or programme you are using with the file name.
+
+
+

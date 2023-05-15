@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    height: 600px;
+    width: 100%;
+    box-sizing: border-box;
+    background: linear-gradient(white,rgb(121, 162, 196));
+}
+.contact{
+    height: 400px;
+    width: 450px;
+    background: linear-gradient(white);
+    margin: 100px 800px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px black;
+        
+    
+}
+input,button{
+    width: 150%;
+    height: 40px;
+    margin: 15px;
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    border-bottom: 3px solid rgb(79, 91, 124);
+
+}
+button{
+  background: blue;
+  height: 50px;
+  color: white;
+  border: none;
+  font-weight: bold;
+    
+}
+input[type="Submit"]{
+    background: green;
+    
+}

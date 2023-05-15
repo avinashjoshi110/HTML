@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.header{
+    box-sizing: border-box;
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(rgb(206, 128, 158),rgb(230, 197, 197));
+}
+.contact{
+    height: 400px;
+    width: 450px;
+    margin: -50px 400px;
+    background: rgb(184, 151, 151);
+    border: 10px;
+    box-shadow: 0 0 10px black;
+    border: none;
+
+}
+input, button{
+    height: 40px;
+    width: 150%;
+    padding: 5px;
+    margin: 15px;
+    font-size: 20px;
+    border: none:
+    border-radius: 10px;
+    border-bottom: 3px solid rgb(136, 39, 136);
+}
+
+button{
+    color: wheat;
+    background-color: blue;
+    font-weight: bold;
+    border: navajowhite;
+
+}
+.contact p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+    margin-left: 70px;
+
+}
+.home{
+    margin: 70px 400px;
+    height: 100px;
+    width: 450px;
+    background-color: white;
+    border: 10px;
+    box-shadow: 0 0 10px black;
+}
+.home p{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+.link a{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    padding: 5px;
+}
+a:hover{
+    color: rgb(0, 217, 255);
+}
+.insta h1{
+    transform: translate(100px, 300px);
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    color: wheat;
+}
+.insta p{
+    transform: translate(100px,300px);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-display: initial;
+    color: ;
+}

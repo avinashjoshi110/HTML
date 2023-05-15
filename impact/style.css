@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.screen{
+    height: 1000px;
+    width: 100%;
+    background-color: #f4f4f4;
+}
+
+.containar{
+    width: 100%;
+    height: 800px;
+    background-color: #008364;
+}
+
+.header{
+    width: 100%;
+    height: 20px;
+    background-color: #00796b;
+    color: #f4f4f4;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+.header a{
+    text-decoration: none;
+    color: #f4f4f4;
+    
+}
+
+.item{
+    width: 100%;
+    height: 100px;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    
+}
+
+.iitem{
+    margin: 10px 150px;
+    width: 60%;
+
+}
+
+
+.iitem a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    /* margin: 30px; */
+    /* margin-left: 50px; */
+    /* word-spacing: 5px; */
+    
+}
+
+
+.iitem a:hover{
+        text-decoration: underline;
+        text-decoration-color: rgb(178, 192, 57);
+        text-decoration-thickness: 3px;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 200px;
+}
+
+.main h1{
+    transform: translate(150px,40px);
+    color: wheat;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.main p{
+    transform: translate(150px,40px);
+    color: wheat;
+}
+
+.input{
+    transform: translate(150px,40px);
+    margin-top: -250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 450px;
+    height: 60px;
+  
+   
+    
+}
+
+.input a{
+    font-size: 30px;
+    font-weight: bold;
+    background: #00796b;
+    color: aliceblue;
+    border-radius: 50px;
+    box-shadow:  0 0 10px white;
+    border: 2px solid white;
+    transition: 0.3s;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.input a:hover{
+    text-decoration: underline;
+    text-decoration-color: white ;
+    text-decoration-thickness: 3px;
+}
+
+.grid{
+    width: 80% ;
+    height: 150px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: grid;
+    gap: 30px;
+    margin-top: 380px;
+    margin-left: 100px;
+     
+    
+     
+}
+
+.greed{
+    background-color :#00796b;   
+    border-radius: 0px;
+    padding: 20px;
+    color: wheat;
+}
+
+
+
+
+

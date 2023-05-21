@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 1000px;
+    width: 1260px;
+    background: linear-gradient(rgb(1, 27, 27) , white);
+}
+
+.header {
+    height: 75px;
+    width: 1260px;
+    display: flex;
+    text-transform: uppercase;
+    margin-top: 50px;
+    /* background: tr; */
+}
+
+.header .logo {
+    padding: 20px 60px;
+   
+
+}
+.header .logo h1 i {
+    color: black;
+}
+.header .logo h1 {
+    color: black;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: inherit;
+
+}
+
+.menu {
+    height: 75px;
+    /* text-decoration: none; */
+
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    margin-left: 80px;
+
+}
+
+.menu ul li {
+    text-decoration: none;
+    padding: 30px 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    transition: .3s ease;
+}
+
+.menu ul li i {
+    color: white;
+}
+
+.menu ul li a:hover {
+    color: palevioletred;
+    text-decoration: underline;
+    text-decoration-color: teal;
+    /* transform: .2s ease; */
+    text-decoration-style: solid;
+    text-decoration-thickness: 3px
+    ;
+
+    
+
+}
+.menu ul li button {
+    color: white;
+    background-color: teal;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    margin-top: -40px;
+    border: none;
+}
+
+.main {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.main h1 {
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: initial;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.main .para  {
+    color: white;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: initial;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+.main .pera {
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 1px;
+
+}
+
+.main button {
+    margin-top: 20px;
+    height: 40px;
+    width: 130px;
+    background-color: teal;
+    border-radius: 20px;
+    border: none;
+    /* background: transparent; */
+}
+.main .btn {
+    margin-top: 20px;
+    height: 40px;
+    width: 130px;
+    background-color: teal;
+    border-radius: 20px;
+    border: 2px solid black;
+    background: transparent;
+    margin-left: 20px;
+    transition: 0.3s ease;
+    border: none;
+
+}
+
+.main .btn:hover {
+    background-color: teal;
+}
+
+.main .btnn:hover{
+    background-color: brown
+}
+
+
+.main button a {
+    color: white;
+    text-decoration: none;
+   
+}
+
+.main button a:hover {
+    color: coral;
+    text-decoration: none;
+    
+   
+}
+
+
+.image {
+    margin-top: -200px;
+    margin-left: 750px;
+}
+.image img {
+    height: 200px;
+    width: 400px;
+}
+
+button:focus{
+    color: coral;
+}
+
+@media (max-width:900px) and (min-width:600) {
+    body {
+        background-color: aqua;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

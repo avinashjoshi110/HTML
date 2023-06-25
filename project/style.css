@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.918);
+   
+}
+
+.header  .logo {
+    /* margin-top: 50px; */
+    margin-left: 150px;
+    padding: 20px;
+    cursor: pointer;
+}
+.header .logo h1 {
+    color: white;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: inherit;
+    letter-spacing: 1px;
+    margin-top: auto;
+    text-transform: uppercase;
+}
+
+.header .logo h1 span {
+    color: rgba(0, 0, 255, 0.712);
+
+}
+
+.header .logo p {
+    color: rgba(255, 255, 255, 0.795);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: inherit;
+    letter-spacing: 1px;
+    margin-top: -20px;
+    text-transform: uppercase;
+    font-size: 15px;
+
+}
+
+.header .smallicon {
+    margin-top: -80px;
+    margin-left: 1100px;
+    color: white;
+    /* padding:   15px; */
+    /* margin-right: 150px; */
+}
+
+.header .smallicon i {
+    padding: 8px;
+    
+}
+
+.header .menubar ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 560px ;
+    margin-top: 5px;
+}
+
+.header .menubar ul li {
+    padding-right: 50px;
+}
+
+.header .menubar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.header .menubar ul li a:hover{
+    background-color: gray;
+    border-radius: 1px;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.014);
+}
+
+.header .smallicon i:hover {
+    color: grey;
+    /* font-size: 20px; */
+
+}
+
+img {
+    justify-content: center;
+    margin:auto 125px;
+    width: 80%;
+    
+}
+
+
+
+
+.main {
+    width: 100% ;
+    margin: 0 125px;
+    display: flex;
+}
+
+.aside {
+    width: 25%;
+    background-color: rgba(14, 13, 13, 0);
+    background: lightgray;
+
+
+}
+
+.main .aside h2 {
+    color: black;
+    transform: translate(40px , 10px);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+
+}
+
+.main .aside .radio div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+
+}
+
+
+table td {
+    margin: 5px 10px;
+    padding: 5px 20px;
+
+}
+
+.Radio {
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.details {
+    display: block;   
+}
+
+.details p {
+    margin: 5px 20px;
+}
+
+.details input {
+    margin: 0px 20px ;
+    height: 20px;
+    box-shadow: 1px 1px 0px rgb(80, 77, 77);
+    padding-left: 5px;
+}
+
+.details button {
+    color: white;
+    background: linear-gradient(lightblue , darkblue);
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.details button:hover{
+    background: green;
+    color: goldenrod;
+}
+
+.news {
+    margin-top: 20px;
+    padding: 0 25px;
+}
+
+.pera {
+ color: blueviolet;
+ cursor: pointer;
+}
+
+.news h1 {
+    color: black;
+    transform: translate(5px , 5px);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.info{
+    width: 55%;
+}
+.info h1 {
+    margin: 15px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    letter-spacing: 1px;
+
+}
+
+.infop{
+    padding-left: 30px;
+    padding-top: 10px;
+    color: rgb(75, 132, 151);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+
+}
+
+.info ul{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.info ul p{
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+.info button {
+    float: right;
+    margin-top: 10px;
+    color: white ;
+    background: linear-gradient(black , rgb(17, 13, 13));
+    width: 20%;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    border: 2px solid blue;
+
+}
+
+.info button:hover{
+    background: green;
+    color: goldenrod;
+}
+
+.info ul li {
+    padding-top: 20px;
+    font-weight: bold;
+    
+}
+
+.info input{
+    margin-top: 10px;
+    color: white ;
+    background: linear-gradient(lightblue , darkblue);
+    width: 12%;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    margin-left: 440px;
+    border: 2px solid black;
+    font-size: 15px;
+}
+
+.info input:hover{
+    background: silver;
+    color: coral;
+    box-shadow: 10px 10px 0px teal;
+    top: -5px;
+    bottom: -5px;
+}
+.info .bottom{
+    display: flex;
+    margin-top: 30px;
+}
+.info .bottom .bottom1 {
+    width: 50%;
+
+}
+.info .bottom .bottom1 h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+
+.info .bottom .bottom1 p{
+    padding-left: 30px;
+}
+
+.info .bottom .bottom1 .parab1 {
+    padding-top: 20px;
+}
+
+.info .bottom .bottom2{
+    padding-top: 20px;
+    padding-left: 125px;
+    height: 250px;
+    width: 350px;
+    /* float: right; */
+}
+.info .bottom .bottom2 p {
+    /* padding-top: 50px; */
+    background: linear-gradient(lightblue , darkblue);
+    padding: 20px;
+    color: aliceblue;
+    
+} 
+
+.footer{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.918);
+    display: flex;
+    justify-content: space-evenly;
+    place-items: center;
+    flex-wrap: wrap;
+}
+
+.footer1{
+    width: 50%;
+}
+.footer1 p a{
+    color: white;
+}
+.footer1 p{
+    color: white;
+    padding: 40px;
+}
+
+.footer2{
+    width: 50%;
+
+}
+
+.footer2 p{
+    /* color: white; */
+    padding: 40px;
+    
+}
+
+.footer2 p a{
+    color: white;
+}
+
+
